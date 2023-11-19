@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智能分类垃圾桶</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/lyb.css">
+    <link rel="stylesheet" href="./download/font_4336574_mvf17ps4d6j/iconfont.css">
+    
+</head>
+<body>
+    <div class = 'header'>
+        <a href="result.html">
+            垃圾分类情况
+        </a>
+        <a href="condition.html">
+            垃圾桶状态
+        </a>
+        <a href="fq.html">
+            常见问题
+        </a>
+        <a href="lyb.html">
+            留言板
+        </a>
+    </div>
+    <div class = 'section'>
+        <div class="content">
+            <form action="">
+                <h1>用户反馈</h1>
+                <p class="subtitle">请留下您宝贵的意见</p>
+                <fieldset style="margin-bottom: 30px;">
+                    <legend>个人信息</legend>
+                    <div>
+                        姓名：<input type="text" placeholder='请输入您的名字' required>
+                    </div>
+                    <div>
+                        性别：<input type="radio" name="sex" id="man">
+                        <label for="man">&emsp;男&emsp;&emsp;&emsp;</label>
+                        <input type="radio" name="sex" id="woman">
+                        <label for="woman">&emsp;女</label>
+                    </div>
+                    <div>
+                        电话：<input type="tel" placeholder='请输入您的电话' required>
+                    </div>
+                    <div>
+                        邮箱：<input type="email" placeholder='请输入您的邮箱' required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>意见反馈</legend>
+                    <div>
+                        您对智能垃圾桶的满意度：<br>
+                        <input type="radio" name="score" id="five_score"><label for="five_score">非常满意</label><br>
+                        <input type="radio" name="score" id="four_score"><label for="four_score">满意</label><br>
+                        <input type="radio" name="score" id="three_score"><label for="three_score">一般</label><br>
+                        <input type="radio" name="score" id="two_score"><label for="two_score">不满意</label><br>
+                        <input type="radio" name="score" id="one_score"><label for="one_score">非常不满意</label><br>
+                    </div>
+                    <div>
+                        您的意见：<br>
+                        <textarea name="" id="" cols="60" rows="10" placeholder="请留下您宝贵的意见"></textarea>
+                    </div>
+                </fieldset>               
+                <div class="btn" style="font-size: 50px;">
+                    <input type="submit" value="提交" style="width:100px;height:60px;font-size: 35px;background: lightcyan;border-radius: 15px;margin: 20px;transition: 1s;">
+                    <input type="reset"  value="重置" style="width:100px;height:60px;font-size: 35px;background: lightcyan;border-radius: 15px;margin: 20px;transition: 1s;">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class = 'footer'>
+    </div>
+</body>
+</html>
