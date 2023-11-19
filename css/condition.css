@@ -1,0 +1,107 @@
+
+.header a:nth-child(2){
+    background: lightblue;
+}
+/* 内容 */
+.section{
+    /* width: 900px; */
+    height: 600px;
+    /* background: black; */
+    margin:0 auto;
+    display: flex;
+}
+.section .login{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    /* background: white;
+    border-bottom: 1 solid black; */
+}
+.section .login .people{
+    height: 200px;
+    border-bottom: 3px solid black;
+    display: flex;
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+.section .login .people>span{
+    flex:1;
+    font-size: 50px;
+    margin: 0 20px 0 20px;
+    height: 200px;
+    line-height: 200px;
+}
+.section .login .people .information{
+    flex:3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section .login .people .information>div{
+    /* flex:1; */
+    font-size: 16px;
+    margin: 10px 0 10px 0;
+}
+
+.section .area_list{
+    flex:1;
+    background: #94a7ae;
+    overflow: auto;
+}
+
+.section .area_list a{
+    text-align: center;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    border-bottom: 1px solid white;
+    text-decoration: none; /* 去除默认的下划线 */
+    outline: none;	/* 去除旧版浏览器的点击后的外虚线框 */
+    color: black;	/* 去除默认的颜色和点击后变化的颜色 */
+    display: block;
+}
+
+.section .content{
+    flex:1;
+    /* background:blue; */
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    display: flex;
+}
+
+.section .content .total{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background: green; */
+    width: 300px;
+    border-right: 1px solid black;
+}
+
+.section .content .items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: white; */
+}
+
+.section .content .items >div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section .content .total .items div{
+    margin: 10px;
+}
+
+.section .content .cells{
+    flex:1;
+    overflow: auto;
+}
+
+.section .content .cells .cell{
+    margin:10px;
+    text-align: center;
+}

@@ -1,0 +1,28 @@
+.header a:nth-child(3){
+    background: lightblue;
+}
+
+.section{
+    background-image: url(../picture/fq_background.jpg);
+    background-size: cover;
+}
+
+.section ul li::marker{
+    color: blue;
+    font-size: 30px;
+}
+
+.section ul li{
+    height: 100px;
+    background-color: rgba(0,255,255,0.2);
+    /* line-height: 200px; */
+    padding: 20px 0 20px 50px;
+    font-size: 30px;
+}
+
+.section ul p{
+    height: 100px;
+    background-color: rgba(143, 147, 148, 0.2);
+    font-size: 20px;
+    padding: 20px 0 20px 50px;
+}

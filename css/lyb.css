@@ -1,0 +1,62 @@
+.header a:nth-child(4){
+    background: lightblue;
+}
+
+.section{
+    background-image: url(../picture/lyb_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    /* border: 0px solid transparent; */
+    padding: 30px;
+}
+
+.section .content{
+    width: 600px;
+    margin: 30px auto;
+}
+
+.section .content h1{
+    text-align: center;
+    color:black;
+    font-size: 50px;
+}
+
+.section .content p[class=subtitle]{
+    text-align: center;
+    color:black;
+    font-size: 26px;
+    margin: 20px;
+}
+
+.section .content fieldset>legend{
+    /* padding-left: 20px; */
+    position: relative;
+    /* left: 100px; */
+}
+
+.section .content fieldset{
+    /* padding-left: 20px; */
+    border: 3px solid#ddd;
+    font-size: 20px;
+}
+
+.section .content fieldset>div{
+    /* padding-left: 20px; */
+    padding-top: 10px;
+    padding-left: 20px;
+    /* font-size: 20px; */
+}
+
+.section .content form div[class=btn]{
+    /* margin-top: 100px; */
+    text-align: center;
+}
+
+.section .content form div[class=btn] input:hover{
+    transform: scale(1.2);
+}
+
+textarea::placeholder{
+    font-size: 20px;
+}
